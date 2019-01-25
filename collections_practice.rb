@@ -25,8 +25,15 @@ def reverse_array (array)
   array.reverse
 end
 
-def kesha_make(array)
+def kesha_maker(array)
   array.collect do |i|
     i[2] = "$"
     i
 end
+
+def add_a(array)
+  array.select do |word|
+    word.chr =="a"
+  end
+end  
+
