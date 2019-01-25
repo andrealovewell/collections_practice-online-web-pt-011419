@@ -30,4 +30,3 @@ def kesha_make(array)
     i[2] = "$"
     i
 end
-
