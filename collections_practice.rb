@@ -35,5 +35,4 @@ def add_a(array)
   array.select do |word|
     word.chr =="a"
   end
-end  
-
+end
